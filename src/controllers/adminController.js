@@ -6,11 +6,11 @@ require('dotenv').config()
 const maxAge = 30 * 24 * 60 * 60
 
 const cloudinary = require('cloudinary').v2
-cloudinary.config({
-    cloud_name: "dxjcjsopt",
-    api_key: "776272262761276",
-    api_secret: "ZvhJVjaKl4CTKyDJIN-xKfNOit4"
-});
+cloudinary.config({ 
+    cloud_name: 'doxdlngmp', 
+    api_key: '965548189437588', 
+    api_secret: 'Pu-3ytPiqK4LJcb9SSHZGC0WQ_s' 
+  });
 
 module.exports.dashboard_get = async (req, res) => {
     const user=await User.find({})
